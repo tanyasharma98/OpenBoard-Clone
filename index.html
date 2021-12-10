@@ -19,16 +19,17 @@
     <div class="tools-cont scale-tools">
         <div class="tool" id="pencil">
             <img src="Icons/illustration.svg" alt="">
-            <div class="size-box">
+            <div class="size-box pencil-width">
                 <div class="size1 size"></div>
                 <div class="size2 size"></div>
                 <div class="size3 size"></div>
                 <div class="size4 size"></div>
             </div>
+
         </div>
         <div class="tool" id="eraser">
             <img src="Icons/eraser.svg" alt="">
-            <div class="size-box">
+            <div class="size-box eraser-width">
                 <div class="size1 size"></div>
                 <div class="size2 size"></div>
                 <div class="size3 size"></div>
@@ -39,7 +40,7 @@
         </div>
         <div class="tool" id="rect">
             <img src="Icons/select-area.svg" alt="">
-            <div class="size-box">
+            <div class="size-box rect-width">
                 <div class="size1 size"></div>
                 <div class="size2 size"></div>
                 <div class="size3 size"></div>
@@ -50,7 +51,7 @@
         </div>
         <div class="tool" id="line" >
             <img  src="Icons/vertical-line.svg" alt="">
-            <div class="size-box">
+            <div class="size-box line-width">
                 <div class="size1 size"></div>
                 <div class="size2 size"></div>
                 <div class="size3 size"></div>
@@ -61,6 +62,7 @@
         </div>
         <div class="tool" id="notebook">
             <img src="Icons/notebook-pen.svg" alt="">
+            
 
         </div>
         <div class="tool" id="download">
@@ -84,8 +86,22 @@
             <div class="color green"></div>
         </div>
     </div>
+
+    <!-- Creating Sticky note through jS -->
+    <!-- <div class="sticky-cont">
+        <div class="header-cont">
+            <div class="minimize"></div>
+            <div class="remove"></div>
+        </div>
+        <div class="note-cont">
+            <textarea></textarea>
+        </div>
+    </div> -->
     <canvas></canvas>
     <script src="tool.js"></script>
+    <script src="canvas.js"></script>
+    <script src="rectLine.js"></script>
+    <script src="color.js"></script>
 </body>
 
 </html>
